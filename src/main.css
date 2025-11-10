@@ -1,4 +1,6 @@
-body {
+/* --- Base Styles --- */
+html, body {
+    height: 100%; /* Ensures flex container fills the viewport */
     margin: 0; 
     font-family: sans-serif;
 }
@@ -10,6 +12,7 @@ body {
     flex-direction: column;
 }
 
+/* --- Header --- */
 .header {
     text-align: center;
     padding: 20px 0;
@@ -23,13 +26,16 @@ body {
     font-size: 1rem;
 }
 
+/* --- Slideshow --- */
 .slideshow {
-    flex: 1; 
+    flex: 1; /* Fill remaining space */
+    min-height: 400px; /* Ensure slides have visible height */
     background-color: #333;
     position: relative;
     overflow: hidden;
 }
 
+/* --- Individual Slide --- */
 .slide {
     position: absolute;
     top: 0;
@@ -37,14 +43,14 @@ body {
     left: 0;
     right: 0;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain; /* Preserve aspect ratio */
     background-position: center center;
-    opacity: 1;
+    opacity: 1; /* Changed from 0 so image is visible */
     transform: scale(1); 
-    transition: all 0.9s ease-out; 
+    transition: all 0.9s ease-out;
 }
 
-.slide:nth-last-child(2) {
-    opacity: 0;
-    transform: scale(1.08);
+/* --- Optional: Add hover effect if you want slight zoom --- */
+.slide:hover {
+    transform: scale(1.05);
 }
