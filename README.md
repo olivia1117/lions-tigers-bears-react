@@ -1,4 +1,4 @@
-# “Lions and Tigers and Bears, Oh My!” Project
+# “Lions and Tigers and Bears, Oh My!” Project in React
 
 ### Overview 
 This is a projects based on a Wizard of Oz movie scene and was originally copied from Brad Schiff’s tutorial on YouTube for creating a JavaScript web application that uses a public API about dogs to teach how different topics like fetch, promises, and async awaits work. Credits are listed further below. This version is slightly different because it is using React instead. 
@@ -15,10 +15,11 @@ If you do get to a point where you would like to commit any changes, then you ca
 If you have this hosted on Azure through GitHub, then you can check its build progress through GitHub actions and then once it’s built successfully, then you can view the Azure site through the link for the static site. 
 
 ### Links to Azure Sites to View Application
-- Static: https://gray-dune-0ff9d0810.3.azurestaticapps.net/
+- Static: https://ashy-wave-0cac53110.3.azurestaticapps.net/
 
 ### Credits
 - Link to original repository for web template by Eric Pogue: https://github.com/EricPogueExampleCode-Web/merna-static-on-azure-2024
 - Link to the tutorial I originally followed by Brad Schiff on his YouTube channel LearnWebCode and give full credit to: https://www.youtube.com/watch?v=AVmGmLFcukM
+- All other development credits go to myself and ChatGPT
 
 #### Built by: Olivia Adamic
